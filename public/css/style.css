@@ -1,6 +1,12 @@
 *, ::before, ::after {
     box-sizing: inherit;
 }
+a{
+    margin: 10px;
+}
+a:hover{
+    color: white;
+}
 .mvc-top, .mvc-bottom {
     position: fixed;
     width: 100%;
@@ -98,8 +104,8 @@ html {
 }
 
 .mvc-button:hover {
-    color: #000 !important;
-    background-color: #ccc !important;
+    color: #ccc !important;
+    background-color: #000 !important;
 }
 
 .mvc-bar .mvc-button {
